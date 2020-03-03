@@ -5,6 +5,7 @@ import { SportAPI } from "./../apis/SportAPI";
 import { LeagueAPI } from "./../apis/LeagueAPI";
 import { MatchAPI } from "./../apis/MatchAPI";
 import { EventiAPI } from "../apis/EventAPI";
+import { BookmakerAPI } from "../apis/BookmakerAPI";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Sports } from "./../view/sports/Sports";
 import { Events } from "./../view/events/Events";
@@ -77,6 +78,7 @@ export function APIS() {
   const matchesByEventId = props => (
     <Matches
       MatchAPI={MatchAPI}
+      BookmakerAPI={BookmakerAPI}
       leagueById={props.match.params.leagueById}
       eventById={props.match.params.eventById}
     />
