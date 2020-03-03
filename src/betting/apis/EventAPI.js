@@ -12,5 +12,48 @@ export const EventiAPI = {
       { event: { idEvent: 5, start_time: "2020.03.07 13:30" } },
       { event: { idEvent: 6, start_time: "2020.03.08 15:00" } }
     ]
+  },
+  3: {
+    events: [
+      { event: { idEvent: 7, start_time: "2020.03.07 18:30" } },
+      { event: { idEvent: 8, start_time: "2020.03.08 15:30" } }
+    ]
+  },
+  4: {
+    events: [
+      { event: { idEvent: 9, start_time: "2020.03.07 16:00" } },
+      { event: { idEvent: 10, start_time: "2020.03.08 18:30" } }
+    ]
+  },
+  5: {
+    events: [
+      { event: { idEvent: 11, start_time: "2020.03.07 16:00" } },
+      { event: { idEvent: 12, start_time: "2020.03.07 19:00" } }
+    ]
+  },
+  6: {
+    events: [
+      { event: { idEvent: 13, start_time: "2020.03.07 00:30" } },
+      { event: { idEvent: 14, start_time: "2020.03.07 1:15" } },
+      { event: { idEvent: 15, start_time: "2020.03.07 3:30" } },
+      { event: { idEvent: 16, start_time: "2020.03.07 5:00" } }
+    ]
+  },
+  7: {
+    events: [
+      { event: { idEvent: 17, start_time: "2020.03.07 15:00" } },
+      { event: { idEvent: 18, start_time: "2020.03.07 16:00" } },
+      { event: { idEvent: 19, start_time: "2020.03.07 19:30" } },
+      { event: { idEvent: 20, start_time: "2020.03.07 21:00" } }
+    ]
+  },
+  8: {
+    events: [
+      { event: { idEvent: 21, start_time: "2020.03.07 0:00" } },
+      { event: { idEvent: 22, start_time: "2020.03.07 1:00" } },
+      { event: { idEvent: 23, start_time: "2020.03.07 2:00" } },
+      { event: { idEvent: 24, start_time: "2020.03.07 3:00" } },
+      { event: { idEvent: 25, start_time: "2020.03.07 4:00" } }
+    ]
   }
 };

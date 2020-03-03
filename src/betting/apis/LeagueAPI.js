@@ -65,7 +65,7 @@ export const LeagueAPI = {
           idLeague: 7,
           nome: "CEV Champions League",
           img:
-            "https://www.underconsideration.com/brandnew/archives/cev_logo_before_after.png"
+            "https://www.lubevolley.it/public/upload/news/2018-2019/champions2019%20%281%29.jpg"
         }
       }
     ]
