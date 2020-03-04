@@ -13,7 +13,8 @@ import {
   Radio,
   RadioGroup,
   FormControlLabel,
-  FormLabel
+  FormLabel,
+  Box
 } from "@material-ui/core";
 import { Info } from "@material-ui/icons";
 
@@ -26,18 +27,20 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper
   },
   gridList: {
-    width: 500,
-    height: 450
+    width: 350,
+    height: 150
   },
   icon: {
     color: "rgba(255, 255, 255, 0.54)"
   },
   formControl: {
-    margin: theme.spacing(1),
-    minWidth: 200
+    margin: theme.spacing(2.5),
+    minWidth: 200,
+    position: "relative",
+    left: "15%"
   },
   selectEmpty: {
-    marginTop: theme.spacing(2)
+    marginTop: theme.spacing(2.5)
   }
 }));
 
@@ -99,7 +102,7 @@ export function Matches(props) {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={180} className={classes.gridList}>
+      <GridList cellHeight={180}>
         <GridListTile key="Subheader" cols={2} style={{ height: "auto" }}>
           <ListSubheader component="div">Match Day</ListSubheader>
         </GridListTile>
@@ -107,7 +110,7 @@ export function Matches(props) {
           idEvent: Number(eventById)
         }).map(el => {
           const template = (
-            <GridListTile key={el.match.img}>
+            <GridListTile key={el.match.img} className={classes.gridList}>
               <img src={el.match.img} alt={el.match.img} />
               <GridListTileBar
                 title={el.match.home}
@@ -162,7 +165,7 @@ export function Matches(props) {
               {state[`bookmaker${el.match.idMatch}`] && (
                 <FormControl
                   component="fieldset"
-                  className={classes.formControl}
+                  className={classes.selectEmpty}
                 >
                   <FormLabel component="legend">Previsione</FormLabel>
                   <RadioGroup
@@ -206,7 +209,14 @@ export function Matches(props) {
               )}
             </FormControl>
           );
-          return templateBookmaker;
+          return (
+            <>
+              <Box component="span" m={1}>
+                {template}
+                {templateBookmaker}
+              </Box>
+            </>
+          );
         })}
       </GridList>
     </div>

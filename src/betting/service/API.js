@@ -12,6 +12,7 @@ import { Events } from "./../view/events/Events";
 import { Leagues } from "../view/leagues/Leagues";
 import { Matches } from "./../view/matches/Matches";
 import { Auth } from "./../view/token/Auth";
+import { Home } from "./../view/home/Home";
 
 export function APIS() {
   const sports = <Sports SportAPI={SportAPI} />;
@@ -110,11 +111,7 @@ export function APIS() {
     localStorage.getItem("token") === null ? (
       <Auth token={{ auth: "admin", pass: btoa("admin") }} />
     ) : (
-      <>
-        Benvenuto,{" "}
-        <strong>{JSON.parse(localStorage.getItem("token"))["auth"]}</strong>{" "}
-        <Link to="/sports">Enter</Link>
-      </>
+      <Home token={JSON.parse(localStorage.getItem("token"))["auth"]} />
     );
 
   const found = (
