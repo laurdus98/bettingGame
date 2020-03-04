@@ -13,6 +13,7 @@ import { Leagues } from "../view/leagues/Leagues";
 import { Matches } from "./../view/matches/Matches";
 import { Auth } from "./../view/token/Auth";
 import { Home } from "./../view/home/Home";
+import { Logout } from "./../view/token/Logout";
 
 export function APIS() {
   const sports = <Sports SportAPI={SportAPI} />;
@@ -114,6 +115,8 @@ export function APIS() {
       <Home token={JSON.parse(localStorage.getItem("token"))["auth"]} />
     );
 
+  const logout = <Logout />;
+
   const found = (
     <span>
       DOESN'T EXISTS{" "}
@@ -131,6 +134,9 @@ export function APIS() {
         <Switch>
           <Route exact={true} path="/">
             {init}
+          </Route>
+          <Route exact={true} path="/logout">
+            {logout}
           </Route>
           <Route exact={true} path="/sports">
             {sports}

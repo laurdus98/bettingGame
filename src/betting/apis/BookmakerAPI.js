@@ -4,6 +4,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -13,6 +14,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -22,6 +25,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -35,6 +40,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -44,6 +50,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -53,6 +61,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -66,6 +76,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -75,6 +86,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -84,6 +97,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -97,6 +112,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -106,6 +122,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -115,6 +133,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -128,6 +148,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -137,6 +158,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -146,6 +169,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -159,6 +184,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -168,6 +194,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -177,6 +205,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -190,6 +220,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -199,6 +230,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -208,6 +241,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -221,6 +256,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -230,6 +266,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -239,6 +277,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -252,6 +292,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -261,6 +302,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -270,6 +313,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -283,6 +328,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -292,6 +338,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -301,6 +349,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -314,6 +364,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -323,6 +374,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -332,6 +385,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -345,6 +400,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -354,6 +410,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -363,6 +421,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -376,6 +436,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -385,6 +446,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -394,6 +457,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -407,6 +472,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -416,6 +482,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -425,6 +493,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -438,6 +508,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -447,6 +518,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -456,6 +529,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -469,6 +544,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -478,6 +554,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -487,6 +565,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -500,6 +580,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -509,6 +590,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -518,6 +601,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -531,6 +616,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -540,6 +626,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -549,6 +637,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -562,6 +652,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -571,6 +662,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -580,6 +673,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -593,6 +688,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -602,6 +698,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -611,6 +709,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -624,6 +724,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -633,6 +734,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -642,6 +745,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -655,6 +760,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -664,6 +770,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -673,6 +781,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -686,6 +796,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -695,6 +806,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -704,6 +817,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -717,6 +832,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -726,6 +842,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -735,6 +853,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -748,6 +868,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -757,6 +878,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -766,6 +889,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -779,6 +904,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -788,6 +914,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -797,6 +925,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -810,6 +940,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -819,6 +950,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -828,6 +961,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -841,6 +976,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -850,6 +986,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -859,6 +997,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -872,6 +1012,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -881,6 +1022,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -890,6 +1033,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -903,6 +1048,7 @@ export const BookmakerAPI = {
       {
         id: 1,
         nome: "EUROBET",
+        img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
           oddX: 5.4,
           odd1: 1.35,
@@ -912,6 +1058,8 @@ export const BookmakerAPI = {
       {
         id: 2,
         nome: "SNAI",
+        img:
+          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -921,6 +1069,8 @@ export const BookmakerAPI = {
       {
         id: 3,
         nome: "William Hill",
+        img:
+          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
