@@ -98,22 +98,22 @@ const useStyles = makeStyles(theme => ({
 export function Matches(props) {
   const classes = useStyles();
 
-  const [state, setState] = React.useState({ bool: false });
+  const [state, setState] = React.useState({});
 
-  const handleClick = name => event => {
+  const handleClick = (name, idMatch) => event => {
     console.log(state, name);
     setState({
       ...state,
       [name]: event.currentTarget,
-      bool: !state.bool
+      [`bool-${idMatch}`]: !Boolean(state[`bool-${idMatch}`])
     });
   };
 
-  const handleClose = name => event => {
+  const handleClose = (name, idMatch) => event => {
     event.preventDefault();
     setState({
       ...state,
-      bool: !state.bool,
+      [`bool-${idMatch}`]: !Boolean(state[`bool-${idMatch}`]),
       [name]: null
     });
   };
@@ -144,23 +144,6 @@ export function Matches(props) {
     window.location.href = `/match/${id}`;
   };
 
-  function isOpen(match) {
-    const isBookmaker = state[`bookmaker${match.idMatch}`];
-    if (isBookmaker) {
-      if (isBookmaker["alt"]) {
-        return !state.isMount
-          ? setState({
-              ...state,
-              isMount: true,
-              [`anchorEl${match.idMatch}`]: null
-            })
-          : state[`anchorEl${match.idMatch}`];
-      }
-    } else {
-      return state[`anchorEl${match.idMatch}`];
-    }
-  }
-
   const templateBMaker = (match, bookmakers) =>
     bookmakers.map(bookmaker => {
       return (
@@ -174,7 +157,7 @@ export function Matches(props) {
         >
           <ListItemIcon>
             <img
-              onClick={handleClick(`bookmaker${match.idMatch}`)}
+              onClick={handleClick(`bookmaker${match.idMatch}`, match.idMatch)}
               name={bookmaker.nome}
               src={bookmaker.img}
               alt={bookmaker.nome}
@@ -222,7 +205,10 @@ export function Matches(props) {
                     aria-haspopup="true"
                     variant="contained"
                     color="primary"
-                    onClick={handleClick(`anchorEl${match.idMatch}`)}
+                    onClick={handleClick(
+                      `anchorEl${match.idMatch}`,
+                      match.idMatch
+                    )}
                   >
                     {state[`bookmaker${match.idMatch}`]["alt"]}
                   </Button>
@@ -232,7 +218,10 @@ export function Matches(props) {
                     aria-haspopup="true"
                     variant="contained"
                     color="primary"
-                    onClick={handleClick(`anchorEl${match.idMatch}`)}
+                    onClick={handleClick(
+                      `anchorEl${match.idMatch}`,
+                      match.idMatch
+                    )}
                   >
                     Scegliere Bookmaker
                   </Button>
@@ -241,8 +230,11 @@ export function Matches(props) {
                   id="customized-menu"
                   anchorEl={state[`anchorEl${match.idMatch}`]}
                   keepMounted
-                  open={state.bool && isOpen(match)}
-                  onClose={handleClose(`anchorEl${match.idMatch}`)}
+                  open={state[`bool-${match.idMatch}`]}
+                  onClose={handleClose(
+                    `anchorEl${match.idMatch}`,
+                    match.idMatch
+                  )}
                 >
                   {templateBMaker(
                     match,
