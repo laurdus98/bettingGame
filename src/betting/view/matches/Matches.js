@@ -43,7 +43,7 @@ const StyledMenu = withStyles({
 const StyledMenuItem = withStyles(theme => ({
   root: {
     "&:focus": {
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: theme.palette.primary.light,
       "& .MuiListItemIcon-root, & .MuiListItemText-primary": {
         color: theme.palette.common.white
       }
@@ -113,6 +113,7 @@ export function Matches(props) {
     event.preventDefault();
     setState({
       ...state,
+      bool: !state.bool,
       [name]: null
     });
   };
@@ -163,7 +164,14 @@ export function Matches(props) {
   const templateBMaker = (match, bookmakers) =>
     bookmakers.map(bookmaker => {
       return (
-        <StyledMenuItem key={bookmaker.nome}>
+        <StyledMenuItem
+          key={bookmaker.nome}
+          selected={
+            state[`bookmaker${match.idMatch}`] &&
+            bookmaker.nome.toUpperCase() ===
+              state[`bookmaker${match.idMatch}`]["alt"].toUpperCase()
+          }
+        >
           <ListItemIcon>
             <img
               onClick={handleClick(`bookmaker${match.idMatch}`)}
@@ -183,120 +191,120 @@ export function Matches(props) {
         <GridListTile key="Subheader" cols={2} style={{ height: "auto" }}>
           <ListSubheader component="div">Match Day</ListSubheader>
         </GridListTile>
-        {_.filter(props.MatchAPI[leagueById].matches, {
-          idEvent: Number(eventById)
-        }).map(el => {
-          const template = (
-            <GridListTile className={classes.gridList}>
-              <img src={el.match.img} alt={el.match.img} />
-              <GridListTileBar
-                title={el.match.home}
-                subtitle={el.match.away}
-                actionIcon={
-                  <IconButton
-                    aria-label={`info about ${el.match.home}`}
-                    className={classes.icon}
-                    onClick={infoById(el.match.idMatch)}
-                  >
-                    <Info />
-                  </IconButton>
-                }
-              />
-            </GridListTile>
-          );
+        <>
+          {_.filter(props.MatchAPI[leagueById].matches, {
+            idEvent: Number(eventById)
+          }).map(el => {
+            const template = (
+              <GridListTile className={classes.gridList}>
+                <img src={el.match.img} alt={el.match.img} />
+                <GridListTileBar
+                  title={el.match.home}
+                  subtitle={el.match.away}
+                  actionIcon={
+                    <IconButton
+                      aria-label={`info about ${el.match.home}`}
+                      className={classes.icon}
+                      onClick={infoById(el.match.idMatch)}
+                    >
+                      <Info />
+                    </IconButton>
+                  }
+                />
+              </GridListTile>
+            );
 
-          const templateBookmaker = ({ match }) => (
-            <FormControl variant="outlined" className={classes.formControl}>
-              {state[`bookmaker${match.idMatch}`] ? (
-                <Button
-                  aria-controls="customized-menu"
-                  aria-haspopup="true"
-                  variant="contained"
-                  color="primary"
-                  onClick={handleClick(`anchorEl${match.idMatch}`)}
-                >
-                  {state[`bookmaker${match.idMatch}`]["alt"]}
-                </Button>
-              ) : (
-                <Button
-                  aria-controls="customized-menu"
-                  aria-haspopup="true"
-                  variant="contained"
-                  color="primary"
-                  onClick={handleClick(`anchorEl${match.idMatch}`)}
-                >
-                  Scegliere Bookmaker
-                </Button>
-              )}
-              <StyledMenu
-                id="customized-menu"
-                anchorEl={state[`anchorEl${match.idMatch}`]}
-                keepMounted
-                open={state.bool && isOpen(match)}
-                onClose={handleClose(`anchorEl${match.idMatch}`)}
-              >
-                {templateBMaker(
-                  match,
-                  props.BookmakerAPI[Number(match.idMatch)].bookmakers
+            const templateBookmaker = ({ match }) => (
+              <FormControl variant="outlined" className={classes.formControl}>
+                {state[`bookmaker${match.idMatch}`] ? (
+                  <Button
+                    aria-controls="customized-menu"
+                    aria-haspopup="true"
+                    variant="contained"
+                    color="primary"
+                    onClick={handleClick(`anchorEl${match.idMatch}`)}
+                  >
+                    {state[`bookmaker${match.idMatch}`]["alt"]}
+                  </Button>
+                ) : (
+                  <Button
+                    aria-controls="customized-menu"
+                    aria-haspopup="true"
+                    variant="contained"
+                    color="primary"
+                    onClick={handleClick(`anchorEl${match.idMatch}`)}
+                  >
+                    Scegliere Bookmaker
+                  </Button>
                 )}
-              </StyledMenu>
-              {state[`bookmaker${match.idMatch}`] && (
-                <FormControl
-                  component="fieldset"
-                  className={classes.selectEmpty}
+                <StyledMenu
+                  id="customized-menu"
+                  anchorEl={state[`anchorEl${match.idMatch}`]}
+                  keepMounted
+                  open={state.bool && isOpen(match)}
+                  onClose={handleClose(`anchorEl${match.idMatch}`)}
                 >
-                  <FormLabel component="legend">Previsione</FormLabel>
-                  <RadioGroup
-                    aria-label="position"
-                    name="position"
-                    value={state[`odd${match.idMatch}`] || ""}
-                    onChange={handleChange(`odd${match.idMatch}`)}
-                    row
+                  {templateBMaker(
+                    match,
+                    props.BookmakerAPI[Number(match.idMatch)].bookmakers
+                  )}
+                </StyledMenu>
+                {state[`bookmaker${match.idMatch}`] && (
+                  <FormControl
+                    component="fieldset"
+                    className={classes.selectEmpty}
                   >
-                    {_.filter(
-                      props.BookmakerAPI[Number(props.eventById)].bookmakers,
-                      {
-                        nome: state[`bookmaker${match.idMatch}`]["alt"]
-                      }
-                    ).map(ply => {
-                      return (
-                        <Box component="span" m={1} key={ply.id}>
-                          <FormControlLabel
-                            value={ply["1X2"].odd1.toString()}
-                            control={<Radio color="primary" />}
-                            label={ply["1X2"].odd1}
-                            labelPlacement="bottom"
-                          />
-                          <FormControlLabel
-                            value={ply["1X2"].oddX.toString()}
-                            control={<Radio color="primary" />}
-                            label={ply["1X2"].oddX}
-                            labelPlacement="bottom"
-                          />
-                          <FormControlLabel
-                            value={ply["1X2"].odd2.toString()}
-                            control={<Radio color="primary" />}
-                            label={ply["1X2"].odd2}
-                            labelPlacement="bottom"
-                          />
-                        </Box>
-                      );
-                    })}
-                  </RadioGroup>
-                </FormControl>
-              )}
-            </FormControl>
-          );
+                    <FormLabel component="legend">Previsione</FormLabel>
+                    <RadioGroup
+                      aria-label="position"
+                      name="position"
+                      value={state[`odd${match.idMatch}`] || ""}
+                      onChange={handleChange(`odd${match.idMatch}`)}
+                      row
+                    >
+                      {_.filter(
+                        props.BookmakerAPI[Number(props.eventById)].bookmakers,
+                        {
+                          nome: state[`bookmaker${match.idMatch}`]["alt"]
+                        }
+                      ).map(ply => {
+                        return (
+                          <Box component="span" m={1} key={ply.id}>
+                            <FormControlLabel
+                              value={ply["1X2"].odd1.toString()}
+                              control={<Radio color="primary" />}
+                              label={ply["1X2"].odd1}
+                              labelPlacement="bottom"
+                            />
+                            <FormControlLabel
+                              value={ply["1X2"].oddX.toString()}
+                              control={<Radio color="primary" />}
+                              label={ply["1X2"].oddX}
+                              labelPlacement="bottom"
+                            />
+                            <FormControlLabel
+                              value={ply["1X2"].odd2.toString()}
+                              control={<Radio color="primary" />}
+                              label={ply["1X2"].odd2}
+                              labelPlacement="bottom"
+                            />
+                          </Box>
+                        );
+                      })}
+                    </RadioGroup>
+                  </FormControl>
+                )}
+              </FormControl>
+            );
 
-          return (
-            <React.Fragment key={el.match.idMatch}>
-              <Box component="span" m={1}>
+            return (
+              <Box component="span" m={1} key={el.match.idMatch}>
                 {template}
                 {templateBookmaker(el)}
               </Box>
-            </React.Fragment>
-          );
-        })}
+            );
+          })}
+        </>
       </GridList>
     </div>
   );
