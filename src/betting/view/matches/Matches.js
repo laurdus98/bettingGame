@@ -16,7 +16,8 @@ import {
   ListItemIcon,
   Menu,
   MenuItem,
-  Button
+  Button,
+  ListItemText
 } from "@material-ui/core";
 import { Info } from "@material-ui/icons";
 
@@ -254,32 +255,45 @@ export function Matches(props) {
                       onChange={handleChange(`odd${match.idMatch}`)}
                       row
                     >
+                      {console.log(
+                        state[`bookmaker${match.idMatch}`] &&
+                          state[`bookmaker${match.idMatch}`]["alt"]
+                      )}
                       {_.filter(
-                        props.BookmakerAPI[Number(props.eventById)].bookmakers,
+                        props.BookmakerAPI[Number(match.idMatch)].bookmakers,
                         {
                           nome: state[`bookmaker${match.idMatch}`]["alt"]
                         }
                       ).map(ply => {
+                        const templateOdd1 = (
+                          <FormControlLabel
+                            value={ply["1X2"].odd1.toString()}
+                            control={<Radio color="primary" />}
+                            label={ply["1X2"].odd1}
+                            labelPlacement="bottom"
+                          />
+                        );
+                        const templateOddX = "oddX" in ply["1X2"] && (
+                          <FormControlLabel
+                            value={ply["1X2"].oddX.toString()}
+                            control={<Radio color="primary" />}
+                            label={ply["1X2"].oddX}
+                            labelPlacement="bottom"
+                          />
+                        );
+                        const templateOdd2 = (
+                          <FormControlLabel
+                            value={ply["1X2"].odd2.toString()}
+                            control={<Radio color="primary" />}
+                            label={ply["1X2"].odd2}
+                            labelPlacement="bottom"
+                          />
+                        );
                         return (
                           <Box component="span" m={1} key={ply.id}>
-                            <FormControlLabel
-                              value={ply["1X2"].odd1.toString()}
-                              control={<Radio color="primary" />}
-                              label={ply["1X2"].odd1}
-                              labelPlacement="bottom"
-                            />
-                            <FormControlLabel
-                              value={ply["1X2"].oddX.toString()}
-                              control={<Radio color="primary" />}
-                              label={ply["1X2"].oddX}
-                              labelPlacement="bottom"
-                            />
-                            <FormControlLabel
-                              value={ply["1X2"].odd2.toString()}
-                              control={<Radio color="primary" />}
-                              label={ply["1X2"].odd2}
-                              labelPlacement="bottom"
-                            />
+                            {templateOdd1}
+                            {templateOddX}
+                            {templateOdd2}
                           </Box>
                         );
                       })}

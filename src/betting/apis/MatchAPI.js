@@ -130,7 +130,7 @@ export const MatchAPI = {
       {
         idEvent: 11,
         match: {
-          idMatch: 11,
+          idMatch: 12,
           home: "Marija Šarapova",
           away: "Caroline Wozniacki",
           img:
@@ -140,7 +140,7 @@ export const MatchAPI = {
       {
         idEvent: 12,
         match: {
-          idMatch: 12,
+          idMatch: 13,
           home: "Serena Williams",
           away: "Ana Ivanović",
           img:
