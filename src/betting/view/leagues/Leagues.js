@@ -36,9 +36,9 @@ export function Leagues(props) {
   const classes = useStyles();
   const { sportById } = props;
   console.log(_.map(props.LeagueAPI[sportById].leagues, "league.nome"));
-  const infoById = id => event => {
+  const infoById = idLeague => event => {
     event.preventDefault();
-    window.location.href = `league/${id}`;
+    window.location.href = `league/${idLeague}`;
   };
   return (
     <div className={classes.root}>

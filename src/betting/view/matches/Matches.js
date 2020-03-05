@@ -16,8 +16,7 @@ import {
   ListItemIcon,
   Menu,
   MenuItem,
-  Button,
-  ListItemText
+  Button
 } from "@material-ui/core";
 import { Info } from "@material-ui/icons";
 

@@ -150,9 +150,9 @@ export const BookmakerAPI = {
         nome: "EUROBET",
         img: "https://www.evbets.com/wp-content/uploads/2018/11/eurobet1.png",
         "1X2": {
-          oddX: 5.4,
-          odd1: 1.35,
-          odd2: 10.1
+          oddX: 3.4,
+          odd1: 3.35,
+          odd2: 1.95
         }
       },
       {
@@ -161,9 +161,9 @@ export const BookmakerAPI = {
         img:
           "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
         "1X2": {
-          oddX: 5.2,
-          odd1: 1.2,
-          odd2: 9.8
+          oddX: 3.2,
+          odd1: 3.2,
+          odd2: 1.8
         }
       },
       {
@@ -172,9 +172,9 @@ export const BookmakerAPI = {
         img:
           "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
         "1X2": {
-          oddX: 5.9,
-          odd1: 1.5,
-          odd2: 12.1
+          oddX: 3.9,
+          odd1: 3.5,
+          odd2: 2.1
         }
       }
     ]

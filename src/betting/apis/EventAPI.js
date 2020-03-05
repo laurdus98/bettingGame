@@ -34,9 +34,9 @@ export const EventiAPI = {
   6: {
     events: [
       { event: { idEvent: 13, start_time: "2020.03.07 00:30" } },
-      { event: { idEvent: 14, start_time: "2020.03.07 1:15" } },
-      { event: { idEvent: 15, start_time: "2020.03.07 3:30" } },
-      { event: { idEvent: 16, start_time: "2020.03.07 5:00" } }
+      { event: { idEvent: 14, start_time: "2020.03.07 01:15" } },
+      { event: { idEvent: 15, start_time: "2020.03.07 03:30" } },
+      { event: { idEvent: 16, start_time: "2020.03.07 05:00" } }
     ]
   },
   7: {
@@ -49,11 +49,11 @@ export const EventiAPI = {
   },
   8: {
     events: [
-      { event: { idEvent: 21, start_time: "2020.03.07 0:00" } },
-      { event: { idEvent: 22, start_time: "2020.03.07 1:00" } },
-      { event: { idEvent: 23, start_time: "2020.03.07 2:00" } },
-      { event: { idEvent: 24, start_time: "2020.03.07 3:00" } },
-      { event: { idEvent: 25, start_time: "2020.03.07 4:00" } }
+      { event: { idEvent: 21, start_time: "2020.03.07 00:00" } },
+      { event: { idEvent: 22, start_time: "2020.03.07 01:00" } },
+      { event: { idEvent: 23, start_time: "2020.03.07 02:00" } },
+      { event: { idEvent: 24, start_time: "2020.03.07 03:00" } },
+      { event: { idEvent: 25, start_time: "2020.03.07 04:00" } }
     ]
   }
 };

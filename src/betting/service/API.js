@@ -17,6 +17,40 @@ import { Logout } from "./../view/token/Logout";
 
 export function APIS() {
   const sports = <Sports SportAPI={SportAPI} />;
+  const leagues = () => {
+    const leagues = [];
+    Object.values(LeagueAPI).map(obj => {
+      return obj.leagues.map(league => {
+        return leagues.push(league);
+      });
+    });
+    return (
+      <span>
+        APIS,
+        {JSON.stringify(_.map(leagues, "league.nome"))}
+      </span>
+    );
+  };
+  const events = () => {
+    const events = [];
+    Object.values(EventiAPI).map(obj => {
+      return obj.events.map(event => {
+        return events.push(event);
+      });
+    });
+    return _.map(
+      _.sortBy(events, ["event.start_time", "event.idEvent"]),
+      "event"
+    ).map(el => {
+      return (
+        <React.Fragment key={el.idEvent}>
+          <div>
+            APIS, <Link to={`event/${el.idEvent}`}>{el.start_time}</Link>
+          </div>
+        </React.Fragment>
+      );
+    });
+  };
 
   const sportsById = props => (
     <span>
@@ -53,11 +87,24 @@ export function APIS() {
     );
   };
 
+  const leagueIdBySportId = props => {
+    return (
+      <span>
+        APIS,
+        {JSON.stringify(
+          _.find(LeagueAPI[props.match.params.sportById].leagues, {
+            league: { idLeague: Number(props.match.params.leagueById) }
+          })
+        )}
+      </span>
+    );
+  };
+
   const eventsByLeagueId = props => (
     <Events EventiAPI={EventiAPI} leagueById={props.match.params.leagueById} />
   );
 
-  const eventById = props => {
+  const eventsById = props => {
     const events = [];
     Object.values(EventiAPI).map(obj => {
       return obj.events.map(event => {
@@ -141,6 +188,12 @@ export function APIS() {
           <Route exact={true} path="/sports">
             {sports}
           </Route>
+          <Route exact={true} path="/leagues">
+            {leagues}
+          </Route>
+          <Route exact={true} path="/events">
+            {events}
+          </Route>
           <Route exact={true} path="/sport/:sportById">
             {sportsById}
           </Route>
@@ -148,13 +201,16 @@ export function APIS() {
             {leaguesById}
           </Route>
           <Route exact={true} path="/event/:eventById">
-            {eventById}
+            {eventsById}
           </Route>
           <Route exact={true} path="/match/:matchById">
             {matchesById}
           </Route>
           <Route exact={true} path="/sport/:sportById/leagues">
             {leaguesBySportId}
+          </Route>
+          <Route exact={true} path="/sport/:sportById/league/:leagueById">
+            {leagueIdBySportId}
           </Route>
           <Route exact={true} path="/league/:leagueById/events">
             {eventsByLeagueId}
