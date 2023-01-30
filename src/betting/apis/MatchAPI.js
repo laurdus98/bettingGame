@@ -72,7 +72,7 @@ export const MatchAPI = {
           home: "Chelsea",
           away: "Everton",
           img:
-            "https://www.bettingtop10.com/ie/wp-content/uploads/sites/3/2019/11/Everton-vs-Chelsea-PL.jpg"
+            "https://calciodangolo.com/wp-content/uploads/2022/08/Pronostico-Everton-Chelsea-1000x600.jpg"
         }
       }
     ]
@@ -120,7 +120,7 @@ export const MatchAPI = {
           home: "Bayern Monaco",
           away: "Augsburg",
           img:
-            "https://hdmatches.com/wp-content/uploads/2019/10/Augsburg-vs-Bayern-M%C3%BCnchen.png"
+            "https://mrfixitstips.co.uk/wp-content/uploads/2021/11/MRF2021_AugsburgvBayernMunich.jpg"
         }
       }
     ]
@@ -134,7 +134,7 @@ export const MatchAPI = {
           home: "Marija Šarapova",
           away: "Caroline Wozniacki",
           img:
-            "https://www.tennisworldusa.org/imgb/70412/caroline-wozniacki-comments-on-her-relationship-with-maria-sharapova.jpg"
+            "https://i.ytimg.com/vi/wWTMy1txYG8/maxresdefault.jpg"
         }
       },
       {
@@ -178,7 +178,7 @@ export const MatchAPI = {
           home: "Pelicans",
           away: "Timberwolves",
           img:
-            "https://www.bettingsite.org/wp-content/uploads/2020/03/Minnesota-Timberwolves-vs-New-Orleans-Pelicans-Logos.jpg"
+            "http://s.espncdn.com/stitcher/sports/basketball/nba/events/401469380.png?templateId=espn.com.share.1"
         }
       },
       {
@@ -197,7 +197,7 @@ export const MatchAPI = {
           idMatch: 18,
           home: "Suns",
           away: "Raptors",
-          img: "https://i.ytimg.com/vi/koaeHvHm_GY/maxresdefault.jpg"
+          img: "https://e7n9s5t9.stackpathcdn.com/articles/wp-content/uploads/2018/12/raptors-vs-suns.jpg"
         }
       },
       {
@@ -216,7 +216,7 @@ export const MatchAPI = {
           idMatch: 20,
           home: "Kings",
           away: "Wizards",
-          img: "https://i.ytimg.com/vi/oRlH2lY6yhc/maxresdefault.jpg"
+          img: "https://artwork.espncdn.com/programs/2383ece3-f3df-42e7-b1ab-c7774679bc91/16x9/large_20210803212839.jpg"
         }
       }
     ]
@@ -323,7 +323,7 @@ export const MatchAPI = {
           home: "Boston Bruins",
           away: "Winnipeg Jets",
           img:
-            "https://nhl.bamcontent.com/images/photos/283909022/1136x640/cut.jpeg"
+            "https://cms.nhl.bamgrid.com/images/photos/283909022/1136x640/cut.jpeg"
         }
       }
     ]
@@ -402,7 +402,7 @@ export const matchesApi = {
         home: "Chelsea",
         away: "Everton",
         img:
-          "https://www.bettingtop10.com/ie/wp-content/uploads/sites/3/2019/11/Everton-vs-Chelsea-PL.jpg"
+          "https://calciodangolo.com/wp-content/uploads/2022/08/Pronostico-Everton-Chelsea-1000x600.jpg"
       }
     }
   ]

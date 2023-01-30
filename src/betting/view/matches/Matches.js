@@ -266,7 +266,7 @@ export function Matches(props) {
                       ).map(ply => {
                         const templateOdd1 = (
                           <FormControlLabel
-                            value={ply["1X2"].odd1.toString()}
+                            value={`1_${ply["1X2"].odd1.toString()}`}
                             control={<Radio color="primary" />}
                             label={ply["1X2"].odd1}
                             labelPlacement="bottom"
@@ -274,7 +274,7 @@ export function Matches(props) {
                         );
                         const templateOddX = "oddX" in ply["1X2"] && (
                           <FormControlLabel
-                            value={ply["1X2"].oddX.toString()}
+                            value={`X_${ply["1X2"].oddX.toString()}`}
                             control={<Radio color="primary" />}
                             label={ply["1X2"].oddX}
                             labelPlacement="bottom"
@@ -282,7 +282,7 @@ export function Matches(props) {
                         );
                         const templateOdd2 = (
                           <FormControlLabel
-                            value={ply["1X2"].odd2.toString()}
+                            value={`2_${ply["1X2"].odd2.toString()}`}
                             control={<Radio color="primary" />}
                             label={ply["1X2"].odd2}
                             labelPlacement="bottom"

@@ -19,13 +19,13 @@ const useStyles = makeStyles(theme => ({
   },
   image: {
     backgroundImage:
-      "url(https://serambigayo.com/wp-content/uploads/2019/11/sportsbetting-1.png)",
+      `url(${process.env.PUBLIC_URL}/img/home.webp)`,
     backgroundRepeat: "no-repeat",
     backgroundColor:
       theme.palette.type === "dark"
         ? theme.palette.grey[900]
         : theme.palette.grey[50],
-    backgroundSize: "cover",
+    backgroundSize: "950px 950px, cover",
     backgroundPosition: "center"
   },
   paper: {

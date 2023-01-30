@@ -15,7 +15,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.1,
           odd1: 1.92,
@@ -26,7 +26,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.9,
           odd1: 2.25,
@@ -51,7 +51,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.2,
           odd1: 2.05,
@@ -62,7 +62,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.9,
           odd1: 2.5,
@@ -87,7 +87,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.2,
           odd1: 1.8,
@@ -98,7 +98,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.9,
           odd1: 2.5,
@@ -123,7 +123,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.2,
           odd1: 3.25,
@@ -134,7 +134,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.5,
           odd1: 3.6,
@@ -159,7 +159,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.2,
           odd1: 3.2,
@@ -170,7 +170,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.9,
           odd1: 3.5,
@@ -195,7 +195,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.2,
@@ -206,7 +206,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 5.9,
           odd1: 1.5,
@@ -231,7 +231,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.2,
           odd1: 2.2,
@@ -242,7 +242,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.9,
           odd1: 2.5,
@@ -267,7 +267,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.2,
           odd1: 2.25,
@@ -278,7 +278,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.8,
           odd1: 3.5,
@@ -303,7 +303,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 5.2,
           odd1: 1.25,
@@ -314,7 +314,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 5.8,
           odd1: 1.5,
@@ -339,7 +339,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 3.6,
           odd1: 3.2,
@@ -350,7 +350,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 3.9,
           odd1: 3.5,
@@ -375,7 +375,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           oddX: 5.6,
           odd1: 6.2,
@@ -386,7 +386,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           oddX: 6,
           odd1: 6.5,
@@ -410,7 +410,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.2,
           odd2: 3.8
@@ -420,7 +420,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.5,
           odd2: 4.1
@@ -443,7 +443,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.1,
           odd2: 3.8
@@ -453,7 +453,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.35,
           odd2: 4.5
@@ -476,7 +476,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 4.2,
           odd2: 1.8
@@ -486,7 +486,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 4.5,
           odd2: 2.1
@@ -509,7 +509,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.05,
           odd2: 11.8
@@ -519,7 +519,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.2,
           odd2: 15.5
@@ -542,7 +542,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 2.8,
           odd2: 2.8
@@ -552,7 +552,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 3.5,
           odd2: 3.15
@@ -575,7 +575,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 3.35,
           odd2: 3.15
@@ -585,7 +585,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 3.95,
           odd2: 3.6
@@ -608,7 +608,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 7.2,
           odd2: 1.05
@@ -618,7 +618,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 8.3,
           odd2: 1.3
@@ -641,7 +641,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.02,
           odd2: 20.2
@@ -651,7 +651,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.1,
           odd2: 20.15
@@ -674,7 +674,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 2.05,
           odd2: 3.5
@@ -684,7 +684,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 2.5,
           odd2: 4.25
@@ -707,7 +707,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 3.2,
           odd2: 2.8
@@ -717,7 +717,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 3.5,
           odd2: 3.35
@@ -740,7 +740,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 2.2,
           odd2: 3.8
@@ -750,7 +750,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 2.5,
           odd2: 3.1
@@ -773,7 +773,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.8,
           odd2: 3.8
@@ -783,7 +783,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 2.5,
           odd2: 4.55
@@ -806,7 +806,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 3.2,
           odd2: 1.8
@@ -816,7 +816,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 3.5,
           odd2: 2.5
@@ -839,7 +839,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 3.2,
           odd2: 1.7
@@ -849,7 +849,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 3.5,
           odd2: 2.1
@@ -872,7 +872,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 3.2,
           odd2: 1.8
@@ -882,7 +882,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 3.65,
           odd2: 2.15
@@ -905,7 +905,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.5,
           odd2: 2.8
@@ -915,7 +915,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.35,
           odd2: 3.15
@@ -938,7 +938,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.2,
           odd2: 7.85
@@ -948,7 +948,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.3,
           odd2: 10.35
@@ -971,7 +971,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.4,
           odd2: 3.8
@@ -981,7 +981,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.65,
           odd2: 4.25
@@ -1004,7 +1004,7 @@ export const BookmakerAPI = {
         id: 2,
         nome: "SNAI",
         img:
-          "https://www.lottomaticaitalia.it/content/dam/lottomaticaitalia/images/area-rivenditori/rivenditori/snai.png",
+          "https://www.scommesseseriea.eu/wp-content/uploads/2020/06/snai-scommesse.png",
         "1X2": {
           odd1: 1.5,
           odd2: 3.55
@@ -1014,7 +1014,7 @@ export const BookmakerAPI = {
         id: 3,
         nome: "William Hill",
         img:
-          "https://www.brandtld.news/wp-content/uploads/2016/05/william-hill-logo-400x200.png",
+          "https://feelinglucky.it/wp-content/uploads/william-hill-logo.png",
         "1X2": {
           odd1: 1.95,
           odd2: 4.1
